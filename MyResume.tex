@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{HS2.PNG} % Profile picture
+
+\cvname{Monish Bista} % Your name
+\cvjobtitle{Software Engineer} % Job title/career
+
+\cvdate{} % Date of birth
+\cvaddress{United States} % Short address/location, use \newline if more than 1 line is required
+\cvmail{bistamonish@gmail.com} % Email address
+\cvnumberphone{(678) 499-6991} % Phone number
+\cvsite{github.com/mbista} % github
+\cvlinkedin{www.linkedin.com/in/monish-bista/}%linkedin
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{HTML/2},{CSS/1},{JavaScript/1},{Java/2},{SSIS/5.5},{SQL/5.5},{C\# .NET/3.75}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{{Python/1},{Ada/1}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{May, 2015}{B.Sc, Computer Science }{Kennesaw State University}{}
+	%\twentyitem{1861-1863}{B.Sc. magna cum laude}{Wonderland}{Majoring in Computer Science}
+	%\twentyitem{1856-1861}{High school}{Wonderland}{Specializing in mathematics and physics.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+	%\twentyitemshort{1865}{Chapter One, Down the Rabbit Hole.}
+	%\twentyitemshort{1865}{Chapter Two, The Pool of Tears.}
+	%\twentyitemshort{1865}{Chapter Three,  The Caucus Race and a Long Tale.}
+	%\twentyitemshort{1865}{Chapter Four,  The Rabbit Sends a Little Bill.}
+	%\twentyitemshort{1865}{Chapter Five,  Advice from a Caterpillar.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\begin{twentyshort} % Environment for a short list with no descriptions
+	%\twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+	%\twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+	%\twentyitemshort{<dates>}{<title/description>}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+
+\workposition{June,2015- Current} % Duration
+{} % FT/PT (full time or part time)
+{Zelis Health Care} % Employer
+{Software Engineer} % Job title
+{} % Description
+\begin{itemize}
+		\setlength \itemsep{0em}	
+		\item Create, assess and deploy console applications in the .NET platform using c\# development in Visual Studio.
+		\item Debug and refactor existing code within .Net applications with some guidance from senior developers.
+		\item Create and improve existing SQL stored procedures to be used in c\#, SSIS and independently by end users. 
+		\item Create SQL Server Integration Services(SSIS) packages involving ETL Jobs
+		\item Create parallel analysis.
+		\item Create reports using SSRS and deploy them on SharePoint for the operations team to better assist in their daily task.
+		\item Debug and make amends to pre-existing Windows Services, unit test and deploy in a timely manner.
+		\item Work with QA resource on bug fixes to ensure proper releases.
+		\item Work closely with the EDI and the operations team to alleviate them from manual processes by automating them with console applications and/or PowerShell scripts.
+		\item Update dll and restore database bacpacs to Azure in timely fashion and deploy them to proper slots for proprietary benchmarking applications.
+		\item Train associates on processes.
+		\item Collaborate with teams on creating better solution for the company while keeping the interests of the stake holders.
+	\end{itemize}
+
+\workposition{June, 2013 -June,2015} % Duration
+{} % FT/PT (full time or part time)
+{Zelis Health Care(formerly GlobalCare INC)} % Employer
+{ITIntern} % Job title
+{} % Description
+\begin{itemize}
+		\setlength \itemsep{0em}	
+		\item Work within IT team to develop process along with the development and operations team while adhering to the HIPAA compliant guidelines.
+		\item Work directly with TradingPartners for end to end test and implementations of EDI files.
+		\item Map datasets including HCFA 1500 and ANSI X12 using GlobalCare’s proprietary windows services.
+		\item Use proprietary applications to implement flat files into databases.
+		\item Query MS-SQL Database tables using SQL commands.
+		\item Create mapping of XML and X12 using Webmethods for proprietary product using WebMethods(Software AG).
+		\item Create/use batch scripts for automations that would require manual work.
+		\item Crate/use PowerShell scripts for automations. 
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Other interests}
+
+%\subsection{Review}
+\textsc{\Large\icon{\faDumbbell}}
+\textsc{\Large\icon{\faGamepad}}
+\textsc{\Large\icon{\faCoffee}}
+\textsc{\Large\icon{\faCutlery}}
+\textsc{\Large\icon{\faPaw}}
+\textsc{\Large\icon{\faCar}}
+%\textsc{\Large\icon{\faTv}}
+\textsc{\Large\icon{\faMusic}}
+\textsc{\Large\icon{\faTools}}
+%\textsc{\Large\icon{}}
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
