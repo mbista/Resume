@@ -99,7 +99,7 @@
 	\renewcommand{\skillstext}{
 		\begin{flushleft}
 			\foreach [count=\i] \x/\y in {#1}{ 
-				\x$ \star $\y
+				 \star \x$
 			}
 		\end{flushleft}
 	}
@@ -163,10 +163,9 @@
 		\profilesection{Skills}
 
 		\skills
+        %(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
 		\skillstext
 		\scriptsize
-		(*)[The skill scale is from 0 (Fundamental Awareness) to 6 (Expert).]
-			
 		%------------------------------------------------
 			
 	\end{textblock}
